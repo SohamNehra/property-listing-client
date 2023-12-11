@@ -1,0 +1,16 @@
+/* Define styles for the title container */
+.title-container {
+  background-color: #274051; /* Set background color */
+  color: #fff; /* Set text color */
+  padding: 5px; /* Add padding for spacing */
+  margin-bottom: 2px; /* Add margin for spacing */
+   /* Center-align the text */
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+/* Define styles for the title text */
+.title-text {
+  font-size: 24px; /* Set font size */
+  font-weight: bold; /* Set font weight to bold */
+}
