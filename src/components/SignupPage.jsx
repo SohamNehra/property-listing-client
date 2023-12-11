@@ -12,7 +12,7 @@ const SignupPage = () => {
 
   const handleSignup = async (username, email, password) => {
     try {
-      const response = await axios.post('http://localhost:5000/register', { username, email, password });
+      const response = await axios.post(import.meta.env.VITE_SERVER_URL + "register", { username, email, password });
       console.log(response.data);
       // If the signup is successful, navigate to the login page
      navigate("/LoginPage")
